@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DAL_Interface_Bookie
+namespace Logic_Interface_Bookie
 {
-    public class Class1
+    public interface IBoek
     {
+        void UpdateBoek(IBoek boek);
     }
 }
