@@ -6,10 +6,9 @@ using System.Threading.Tasks;
 
 namespace Logic_Interface_Bookie
 {
-    public interface ISerie
+    public interface IGenre
     {
-        string Titel { get; }
-        void UpdateSerie(ISerie serie);
-        void VoegBoekToeAanSerie(IBoek boek);
+        string Naam { get; }
+        void UpdateGenre(IGenre genre);
     }
 }
