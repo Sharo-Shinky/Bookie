@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Logic_Interface_Bookie
+namespace DAL_Interface_Bookie
 {
-    public interface IBoek
+    public class BoekStruct
     {
         int Id { get; }
         string Titel { get; }
@@ -17,6 +17,5 @@ namespace Logic_Interface_Bookie
         int Status { get; }
         string Taal { get; }
         string Opmerking { get; }
-        void UpdateBoek(IBoek boek);
     }
 }

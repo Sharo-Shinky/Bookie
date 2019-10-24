@@ -4,13 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Logic_Interface_Bookie
+namespace DAL_Interface_Bookie
 {
-    public interface IAuteur
+    public class AuteurStruct
     {
         int Id { get; }
         string VoorNaam { get; }
         string AchterNaam { get; }
-        void UpdateAuteur(IAuteur auteur);
+
+
     }
 }

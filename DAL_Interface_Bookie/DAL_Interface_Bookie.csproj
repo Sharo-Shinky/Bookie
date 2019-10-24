@@ -41,7 +41,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AuteurStruct.cs" />
+    <Compile Include="BoekStruct.cs" />
+    <Compile Include="GenreStruct.cs" />
+    <Compile Include="IAuteurCollectieRepository.cs" />
+    <Compile Include="IAuteurRepository.cs" />
+    <Compile Include="IBoekCollectieRepository.cs" />
+    <Compile Include="IBoekRepository.cs" />
+    <Compile Include="IGenreCollectieRepository.cs" />
+    <Compile Include="IGenreRepository.cs" />
+    <Compile Include="ISerieCollectieRepository.cs" />
+    <Compile Include="ISerieRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SerieStruct.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

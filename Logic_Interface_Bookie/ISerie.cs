@@ -8,6 +8,7 @@ namespace Logic_Interface_Bookie
 {
     public interface ISerie
     {
+        int Id { get; }
         string Titel { get; }
         void UpdateSerie(ISerie serie);
         void VoegBoekToeAanSerie(IBoek boek);

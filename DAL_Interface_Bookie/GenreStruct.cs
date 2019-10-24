@@ -4,12 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Logic_Interface_Bookie
+namespace DAL_Interface_Bookie
 {
-    public interface IGenre
+    public class GenreStruct
     {
         int Id { get; }
         string Naam { get; }
-        void UpdateGenre(IGenre genre);
     }
 }
