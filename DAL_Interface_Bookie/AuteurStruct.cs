@@ -12,6 +12,17 @@ namespace DAL_Interface_Bookie
         string VoorNaam { get; }
         string AchterNaam { get; }
 
+        public AuteurStruct(string voorNaam, string achterNaam)
+        {
+            VoorNaam = voorNaam;
+            AchterNaam = achterNaam;
+        }
 
+        public AuteurStruct(int id, string voorNaam, string achterNaam)
+        {
+            Id = id;
+            VoorNaam = voorNaam;
+            AchterNaam = achterNaam;
+        }
     }
 }

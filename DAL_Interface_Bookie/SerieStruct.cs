@@ -10,5 +10,16 @@ namespace DAL_Interface_Bookie
     {
         int Id { get; }
         string Titel { get; }
+
+        public SerieStruct(string titel)
+        {
+            Titel = titel;
+        }
+
+        public SerieStruct(int id, string titel)
+        {
+            Id = id;
+            Titel = titel;
+        }
     }
 }

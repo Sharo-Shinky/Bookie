@@ -10,5 +10,16 @@ namespace DAL_Interface_Bookie
     {
         int Id { get; }
         string Naam { get; }
+
+        public GenreStruct(string naam)
+        {
+            Naam = naam;
+        }
+
+        public GenreStruct(int id, string naam)
+        {
+            Id = id;
+            Naam = naam;
+        }
     }
 }
