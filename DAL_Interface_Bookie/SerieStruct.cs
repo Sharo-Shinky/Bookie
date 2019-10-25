@@ -8,8 +8,8 @@ namespace DAL_Interface_Bookie
 {
     public class SerieStruct
     {
-        int Id { get; }
-        string Titel { get; }
+        public int Id { get; private set; }
+        public string Titel { get; private set; }
 
         public SerieStruct(string titel)
         {

@@ -8,15 +8,15 @@ namespace DAL_Interface_Bookie
 {
     public class BoekStruct
     {
-        int Id { get; }
-        string Titel { get; }
-        int Bladzijdes { get; }
-        int Beoordeling { get; }
-        int Volgnummer { get; }
-        int GelezenInJaar { get; }
-        int Status { get; }
-        string Taal { get; }
-        string Opmerking { get; }
+        public int Id { get; private set; }
+        public string Titel { get; private set; }
+        public int Bladzijdes { get; private set; }
+        public int Beoordeling { get; private set; }
+        public int Volgnummer { get; private set; }
+        public int GelezenInJaar { get; private set; }
+        public int Status { get; private set; }
+        public string Taal { get; private set; }
+        public string Opmerking { get; private set; }
 
         public BoekStruct(string titel, int bladzijdes, int beoordeling, int volgnummer, int gelezenInJaar, int status, string taal, string opmerking)
         {

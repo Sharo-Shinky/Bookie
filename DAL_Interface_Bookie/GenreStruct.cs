@@ -8,8 +8,8 @@ namespace DAL_Interface_Bookie
 {
     public class GenreStruct
     {
-        int Id { get; }
-        string Naam { get; }
+        public int Id { get; private set; }
+        public string Naam { get; private set; }
 
         public GenreStruct(string naam)
         {

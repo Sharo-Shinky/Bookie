@@ -8,9 +8,9 @@ namespace DAL_Interface_Bookie
 {
     public class AuteurStruct
     {
-        int Id { get; }
-        string VoorNaam { get; }
-        string AchterNaam { get; }
+        public int Id { get; private set; }
+        public string VoorNaam { get; private set; }
+        public string AchterNaam { get; private set; }
 
         public AuteurStruct(string voorNaam, string achterNaam)
         {

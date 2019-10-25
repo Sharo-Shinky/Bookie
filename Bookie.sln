@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL_Interface_Bookie", "DAL
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logic_Interface_Bookie", "Logic_Interface_Bookie\Logic_Interface_Bookie.csproj", "{6DC9C969-61C4-4C93-80B2-24AA98AAB18B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logic_Bookie", "Logic_Bookie\Logic_Bookie.csproj", "{09C66A69-27E1-4FAC-BF23-3DC617C6ABA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL_Bookie", "DAL_Bookie\DAL_Bookie.csproj", "{CD39B43F-F5BE-4E6B-ACF3-42EA4E6FF40C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{6DC9C969-61C4-4C93-80B2-24AA98AAB18B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6DC9C969-61C4-4C93-80B2-24AA98AAB18B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6DC9C969-61C4-4C93-80B2-24AA98AAB18B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09C66A69-27E1-4FAC-BF23-3DC617C6ABA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09C66A69-27E1-4FAC-BF23-3DC617C6ABA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09C66A69-27E1-4FAC-BF23-3DC617C6ABA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09C66A69-27E1-4FAC-BF23-3DC617C6ABA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD39B43F-F5BE-4E6B-ACF3-42EA4E6FF40C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD39B43F-F5BE-4E6B-ACF3-42EA4E6FF40C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD39B43F-F5BE-4E6B-ACF3-42EA4E6FF40C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD39B43F-F5BE-4E6B-ACF3-42EA4E6FF40C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
